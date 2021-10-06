@@ -1,0 +1,15 @@
+**NextJs:
+    - React js framework for production.
+    - Solves the common problems andmakes building react apps easier.
+
+    *Nextjs Feature:
+        - Server Side Rendering
+            - Automatica page pre rendering : Great for SEO and initial Load.
+            - Blending client side and server side : Feetch data on the server and render finished page
+        - File based routing:
+            - Define pages and routes with file and folders instead of code
+            - Less code ,less work, highly understandable
+
+        - Fulstack Capabilities
+            - Easily add backend code to your project
+            - starting data , getting data, authentication ectcan be added to your react project.
