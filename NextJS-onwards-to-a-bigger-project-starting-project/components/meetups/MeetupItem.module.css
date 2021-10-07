@@ -30,7 +30,7 @@
   text-align: center;
 }
 
-.actions .button {
+.actions button {
   font: inherit;
   cursor: pointer;
   color: #77002e;
@@ -39,7 +39,7 @@
   padding: 0.5rem 1.5rem;
   border-radius: 4px;
 }
-.actions .button a{
+.actions  a{
   text-decoration: none;
   color: #77002e;
 }

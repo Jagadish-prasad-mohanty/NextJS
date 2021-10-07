@@ -6,9 +6,8 @@ function NewMeetup() {
         console.log(newMeetupData);
     }
     return (
-        <Layout>
-            <NewMeetupForm onAddMeetup={meetupAddHandler}/>
-        </Layout>
+        <NewMeetupForm onAddMeetup={meetupAddHandler}/>
+       
     )
 }
 

@@ -15,9 +15,7 @@ const DEMO_meetups=[
 ]
 function Home() {
     return (
-        <Layout>
             <MeetupList meetups={DEMO_meetups}/>
-        </Layout>
     )
 }
 
