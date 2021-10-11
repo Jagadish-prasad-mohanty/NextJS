@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState,useEffect} from 'react'
 import Layout from '../components/layout/Layout';
 import MeetupList from '../components/meetups/MeetupList'
 const DEMO_meetups=[
@@ -13,10 +13,26 @@ const DEMO_meetups=[
     title:"Road Side"
 },
 ]
-function Home() {
+function Home(props) {
+    // const [meetUpData, setMeetUpData] = useState([]);
+    // useEffect(() => {
+    //    //fetch data
+    //    setMeetUpData(DEMO_meetups)
+    // }, [])
+    // if (!meetUpData){
+    //     return <p style={{textAlign:'center'}}>Loading ...</p>
+    // }
     return (
-            <MeetupList meetups={DEMO_meetups}/>
+            <MeetupList meetups={props.meetupData}/>
     )
+}
+
+export async function getStaticProps(){
+    return {
+        props: {
+            meetupData:DEMO_meetups
+        }
+    }
 }
 
 export default Home

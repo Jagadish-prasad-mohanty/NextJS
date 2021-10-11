@@ -5,7 +5,7 @@ import { useRouter } from 'next/router';
 function MeetupItem(props) {
   const router=useRouter()
   const showDetailsHandler= ()=>{
-    router.push('/'+props.title+"-"+props.id)
+    router .push('/'+props.title+"-"+props.id)
   }
   return (
     <li className={classes.item}>
